@@ -9,7 +9,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Get Source
       - uses: actions/checkout@v4
       - name: Publish PowerShell Module
       - uses: natescherer/publish-powershell-action@v1
