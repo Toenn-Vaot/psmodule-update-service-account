@@ -9,10 +9,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
-      - name: Publish PowerShell Module
-      - uses: natescherer/publish-powershell-action@v1
-        with:
-          token: ${{secrets.powershellmodules_api_key}}
-          target: gallery
-          path: UpdateServiceAccount
+    - name: Get Sources
+      uses: actions/checkout@v4
+    - name: Publish PowerShell Module
+      uses: natescherer/publish-powershell-action@v1
+      with:
+        token: ${{secrets.powershellmodules_api_key}}
+        target: gallery
+        path: UpdateServiceAccount
