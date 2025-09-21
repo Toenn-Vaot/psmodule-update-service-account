@@ -12,8 +12,6 @@ jobs:
     - name: Get Sources
       uses: actions/checkout@v4
     - name: Publish PowerShell Module
-      uses: natescherer/publish-powershell-action@v1
-      with:
-        token: ${{secrets.powershellmodules_api_key}}
-        target: gallery
-        path: UpdateServiceAccount
+      run: |
+        Publish-Module -Name UpdateServiceAccount -Path UpdateServiceAccount -NuGetApiKey ${{secrets.POWERSHELLMODULES_API_KEY}}
+      shell: pwsh
