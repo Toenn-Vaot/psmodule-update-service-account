@@ -1,5 +1,6 @@
 # UpdateServiceAccount
 
+[![Push to Powershell Gallery](https://github.com/Toenn-Vaot/psmodule-update-service-account/actions/workflows/main.yml/badge.svg)](https://github.com/Toenn-Vaot/psmodule-update-service-account/actions/workflows/main.yml)
 [![PowerShell Gallery - UpdateServiceAccount](https://img.shields.io/badge/PowerShell%20Gallery-UpdateServiceAccount-blue.svg)](https://www.powershellgallery.com/packages/UpdateServiceAccount)
 [![Minimum Supported PowerShell Version](https://img.shields.io/badge/PowerShell-5.1-blue.svg)](https://github.com/Toenn-Vaot/psmodule-update-service-account)
 
