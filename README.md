@@ -1,17 +1,17 @@
-# ChangeServiceAccount
+# UpdateServiceAccount
 
-[![PowerShell Gallery - ChangeServiceAccount](https://img.shields.io/badge/PowerShell%20Gallery-ChangeServiceAccount-blue.svg)](https://www.powershellgallery.com/packages/ChangeServiceAccount)
-[![Minimum Supported PowerShell Version](https://img.shields.io/badge/PowerShell-5.1-blue.svg)](https://github.com/Toenn-Vaot/psmodule-change-service-account)
+[![PowerShell Gallery - UpdateServiceAccount](https://img.shields.io/badge/PowerShell%20Gallery-UpdateServiceAccount-blue.svg)](https://www.powershellgallery.com/packages/UpdateServiceAccount)
+[![Minimum Supported PowerShell Version](https://img.shields.io/badge/PowerShell-5.1-blue.svg)](https://github.com/Toenn-Vaot/psmodule-update-service-account)
 
 Introduction
 ============
-ChangeServiceAccount is a module that allows use Change-ServiceAccount cmdlet which change the service account of specified service.
+UpdateServiceAccount is a module that allows use Update-ServiceAccount cmdlet which change the service account of specified service.
 
 Documentation
 =============
 
 ```powershell
-Get-Help ChangeServiceAccount
+Get-Help Update-ServiceAccount
 ```
 
 Requirements
@@ -19,17 +19,17 @@ Requirements
 
 - Windows PowerShell 5.1 or newer.
 
-Get ChangeServiceAccount Module
+Get UpdateServiceAccount Module
 ========================
 
-Please refer to our [documentation](https://www.powershellgallery.com/packages/ChangeServiceAccount/) for the up-to-date version on how to get the ChangeServiceAccount Module.
+Please refer to our [documentation](https://www.powershellgallery.com/packages/UpdateServiceAccount/) for the up-to-date version on how to get the UpdateServiceAccount Module.
 
-Get ChangeServiceAccount Source
+Get UpdateServiceAccount Source
 ========================
 
 #### Steps
 * Obtain the source
     - Clone the repository (needs git)
     ```powershell
-    git clone https://github.com/Toenn-Vaot/psmodule-change-service-account
+    git clone https://github.com/Toenn-Vaot/psmodule-update-service-account
     ```
