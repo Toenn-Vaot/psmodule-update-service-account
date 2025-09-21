@@ -13,10 +13,10 @@ jobs:
       uses: actions/checkout@v4
     - name: Test PowerShell Module Manifest
       run: |
-        Test-ModuleManifest -Path ./psmodule-update-service-account/UpdateServiceAccount/UpdateServiceAccount.psd1
+        Test-ModuleManifest -Path ./UpdateServiceAccount/UpdateServiceAccount.psd1
       shell: pwsh
       
     - name: Publish PowerShell Module
       run: |
-        Publish-Module -Path ./psmodule-update-service-account/UpdateServiceAccount -Repository PSGallery -NuGetApiKey ${{secrets.POWERSHELLMODULES_API_KEY}}
+        Publish-Module -Path ./UpdateServiceAccount -Repository PSGallery -NuGetApiKey ${{secrets.POWERSHELLMODULES_API_KEY}}
       shell: pwsh
