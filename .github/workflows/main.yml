@@ -1,0 +1,19 @@
+name: Push to Powershell Gallery
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  push:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Get Source
+      - uses: actions/checkout@v4
+      - name: Publish PowerShell Module
+      - uses: natescherer/publish-powershell-action@v1
+        with:
+          token: ${{secrets.powershellmodules_api_key}}
+          target: gallery
+          path: UpdateServiceAccount
